@@ -1,0 +1,30 @@
+messages:
+  prefix: '&8[&3VelocityAliases&8] &r'
+  configReloaded: '&7Config reloaded'
+  connecting: '&aConnecting to %server% server...'
+  connectingNoPermission: '&cYou do not have permission'
+  alreadyConnected: '&cYou''re already connected to %server% server.'
+  onlyPlayer: '&cOnly players may execute this command.'
+
+aliases:
+  ## Example
+  #    server:
+  #        "/somealias":
+  #            forward: false
+  #        "/somealias2":
+  #            forward: true
+  #            permission: any.bungee.permission
+  lobby:
+    "/lobby":
+      permission: ''
+    "/hub":
+      permission: ''
+  skyblock:
+    "/skyblock":
+      permission: ''
+    "/is":
+      permission: ''
+    "/island":
+      permission: ''
+
+config-version: '1'
